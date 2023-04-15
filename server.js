@@ -12,7 +12,7 @@ const express = require("express");
 const bodyparser = require("body-parser");
 const app = express();
 var cors = require('cors');
-const MoviesDB = require("./modules/moviesDB.js");
+const MoviesDB = require("./moviesDB.js");
 const db = new MoviesDB();
 
 const HTTP_PORT = process.env.PORT || 8080;
